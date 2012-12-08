@@ -1,0 +1,5 @@
+float64 Top_Left_Latitude
+float64 Top_Left_Longitude
+
+float64 Bot_Right_Latitude
+float64 Bot_Right_Longitude

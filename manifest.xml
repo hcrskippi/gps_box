@@ -1,0 +1,15 @@
+<package>
+  <description brief="gps_box">
+
+     gps_box
+
+  </description>
+  <author>human</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gps_box</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+</package>
+
+
