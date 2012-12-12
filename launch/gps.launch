@@ -1,0 +1,19 @@
+<!-- 
+  Starts gps.
+-->
+<launch>
+    <!--
+    clearpath_sensors
+    -->
+    <node pkg="clearpath_sensors" type="nmea_gps.py" name="nmea_gps" required="true" output="screen">
+        <rosparam>        
+            port  : "/dev/rfcomm6"
+            baud  : "115200"
+        </rosparam>    
+    </node>
+    <!-- 
+    gps_box
+    -->
+    <node pkg="gps_box" type="gps_box.py" name="gpsbox" required="true" output="screen"/>
+    <node pkg="gps_box" type="box_pub.py" name="box_pub" required="true" output="screen"/>
+</launch>
