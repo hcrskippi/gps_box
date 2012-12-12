@@ -15,5 +15,4 @@
     gps_box
     -->
     <node pkg="gps_box" type="gps_box.py" name="gpsbox" required="true" output="screen"/>
-    <node pkg="gps_box" type="box_pub.py" name="box_pub" required="true" output="screen"/>
 </launch>
